@@ -1,0 +1,3 @@
+[submodule ".zpreztorc"]
+	path = .zpreztorc
+	url = https://github.com/sorin-ionescu/prezto.git
