@@ -45,6 +45,7 @@ zstyle ':prezto:load' pmodule \
   'prompt' \
   'custom-aws' \
   'custom-ruby' \
+  'custom-git' \
   'custom-exa'
 
 #
