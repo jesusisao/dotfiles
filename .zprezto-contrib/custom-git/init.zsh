@@ -13,7 +13,8 @@ git-tempscript () {
   if [ -z "$point2" ]; then
     point2="origin/develop"
   fi
-
+  git fetch
+  echo -n -e "\n"
   git --no-pager diff $point1..$point2 --name-only -- "temp_scripts/"
 }
 
@@ -27,7 +28,8 @@ git-tempscript-summary () {
   if [ -z "$point2" ]; then
     point2="origin/develop"
   fi
-
+  git fetch
+  echo -n -e "\n"
   git --no-pager diff $point1..$point2 --summary -- "temp_scripts/"
 }
 
@@ -41,6 +43,7 @@ git-release-list () {
   if [ -z "$point2" ]; then
     point2="origin/develop"
   fi
-
+  git fetch
+  echo -n -e "\n"
   git --no-pager log --no-merges --no-decorate --oneline --left-right $point1...$point2
 }
