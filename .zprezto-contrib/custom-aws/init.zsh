@@ -14,6 +14,6 @@ show-ec2 () {
   aws ec2 describe-instances \
       --profile $profile \
       --filter "Name=instance-state-name,Values=running" \
-      --query "sort_by(Reservations[].Instances[].{no1_Name: Tags[?Key==\`Name\`].Value|[0] , no2_InstanceId: InstanceId, no3_PrivateIp: PrivateIpAddress, no4_Type: InstanceType}, &no1_Name)" \
+      --query "sort_by(Reservations[].Instances[].{no1_Name: Tags[?Key==\`Name\`].Value|[0] , no2_InstanceId: InstanceId, no3_PrivateIp: PrivateIpAddress, no4_Type: InstanceType, no5_LaunchTime: LaunchTime}, &no1_Name)" \
       --output table
 }
