@@ -16,4 +16,4 @@ fi
 
 alias bx='bundle exec'
 alias rubo='bundle exec rubocop --require rubocop-rails --parallel -ES'
-alias rubofix='bundle exec rubocop --require rubocop-rails -ES --auto-correct'
+alias rubofix='bundle exec rubocop --require rubocop-rails -ES --autocorrect'
