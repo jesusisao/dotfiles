@@ -2,6 +2,9 @@
 if (( ! $+commands[ruby] )); then
   return 1
 fi
+if [[ ! -d "$HOME/.rbenv/bin" ]]; then
+  return 1
+fi
 
 # for Ruby
 export PATH="$HOME/.rbenv/bin:$PATH"
