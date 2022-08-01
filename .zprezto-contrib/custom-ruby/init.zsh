@@ -2,7 +2,7 @@
 if (( ! $+commands[ruby] )); then
   return 1
 fi
-if [[ ! -d "$HOME/.rbenv/bin" ]]; then
+if [[ ! -d "$HOME/.rbenv" ]]; then
   return 1
 fi
 
