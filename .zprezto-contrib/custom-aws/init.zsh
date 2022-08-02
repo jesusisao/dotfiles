@@ -3,6 +3,8 @@ if (( ! $+commands[aws] )); then
   return 1
 fi
 
+export AWS_PAGER=""
+
 # EC2一覧を見るための関数
 # 第一引数にprofileを取る。無かった場合はdefaultプロファイルになる。
 show-ec2 () {
