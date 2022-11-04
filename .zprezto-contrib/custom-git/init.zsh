@@ -47,3 +47,18 @@ git-release-list () {
   echo -n -e "\n"
   git --no-pager log --no-merges --no-decorate --oneline --left-right $point1...$point2
 }
+
+git-release-list-auth () {
+  point1=$1
+  if [ -z "$point1" ]; then
+    point1="origin/master"
+  fi
+
+  point2=$2
+  if [ -z "$point2" ]; then
+    point2="origin/develop"
+  fi
+  git fetch
+  echo -n -e "\n"
+  git --no-pager log --no-merges --pretty=format:"%h%x09%an%x09%s" $point1...$point2
+}
