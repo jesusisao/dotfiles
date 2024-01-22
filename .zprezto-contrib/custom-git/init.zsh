@@ -18,6 +18,21 @@ git-tempscript () {
   git --no-pager diff $point1..$point2 --name-only -- "temp_scripts/"
 }
 
+git-db-migrate () {
+  point1=$1
+  if [ -z "$point1" ]; then
+    point1="origin/master"
+  fi
+
+  point2=$2
+  if [ -z "$point2" ]; then
+    point2="origin/develop"
+  fi
+  git fetch
+  echo -n -e "\n"
+  git --no-pager diff $point1..$point2 --name-only -- "db/migrate/"
+}
+
 git-tempscript-summary () {
   point1=$1
   if [ -z "$point1" ]; then
