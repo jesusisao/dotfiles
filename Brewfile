@@ -7,5 +7,5 @@ cask 'slack'
 cask 'scroll-reverser'
 cask 'clipy'
 
-brew 'exa'
+brew 'eza'
 brew 'direnv'

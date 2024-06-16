@@ -1,8 +1,8 @@
 # Return if requirements are not found.
-if (( ! $+commands[exa] )); then
+if (( ! $+commands[eza] )); then
   return 1
 fi
 
-alias l='exa --icons'
-alias ll='exa --icons -l'
-alias la='exa --icons -la'
+alias l='eza --icons'
+alias ll='eza --icons -l'
+alias la='eza --icons -la'
