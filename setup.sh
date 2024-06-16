@@ -25,3 +25,9 @@ else
 fi
 brew bundle install --file=Brewfile
 
+# VSCodeの設定 --------
+
+VSCODE_SETTING_DIR="~/Library/Application\ Support/Code/User"
+
+rm "$VSCODE_SETTING_DIR/settings.json"
+ln -s "vscode/settings.json" "${VSCODE_SETTING_DIR}/settings.json"

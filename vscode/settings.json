@@ -1,0 +1,118 @@
+{
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Monokai ST3",
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "'MyricaM M', 'MesloLGS NF', Menlo, Monaco, 'Courier New', monospace",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.renderLineHighlight": "all",
+  "editor.guides.bracketPairs": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.insertFinalNewline": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.scrollback": 200000,
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"],
+      "env": {
+        "FROM_VSCODE": "true"
+      }
+    }
+  },
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "elixir",
+    "erlang",
+    "git-commit",
+    "go",
+    "graphql",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "jupyter",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "python",
+    "pug",
+    "restructuredtext",
+    "ruby",
+    "rust",
+    "scala",
+    "scss",
+    "scminput",
+    "swift",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "yml",
+    "yaml"
+  ],
+  "cSpell.words": [
+    "autofetch",
+    "esbenp",
+    "adpyke",
+    "monokai",
+    "menlo",
+    "fontawesome",
+    "fortawesome",
+    "datetime",
+    "whitespaces",
+    "rollbar",
+    "turbolinks",
+    "scminput"
+  ],
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
