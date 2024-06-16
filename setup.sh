@@ -26,6 +26,11 @@ else
 fi
 brew bundle install --file=Brewfile
 
+# キーリピート系の速度変更 --------
+
+defaults write -g InitialKeyRepeat -int 15
+defaults write -g KeyRepeat -int 1
+
 # VSCodeの設定 --------
 
 VSCODE_SETTING_DIR="~/Library/Application\ Support/Code/User"
