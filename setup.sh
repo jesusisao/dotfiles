@@ -11,6 +11,7 @@ for f in .??*; do
     [ "$f" = ".git" ] && continue
     [ "$f" = ".gitconfig.local.template" ] && continue
     [ "$f" = ".gitmodules" ] && continue
+    [ "$f" = ".gitignore" ] && continue
 
     # シンボリックリンクを貼る
     ln -snfv ${PWD}/"$f" ~/

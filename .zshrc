@@ -22,3 +22,6 @@ source "${ZDOTDIR:-$HOME}/.my-zprofile.sh"
 export DIRENV_LOG_FORMAT=
 eval "$(direnv hook zsh)"
 
+if [[ -r "${ZDOTDIR:-$HOME}/.gitignored-profile.sh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.gitignored-profile.sh"
+fi
