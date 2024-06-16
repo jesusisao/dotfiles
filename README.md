@@ -1,15 +1,16 @@
 # dotfiles
 
-## 前提
+## セットアップ手順
 
-- homebrew と git がインストールされている
-
-## 使用方法
-
-1. `~/Workspace` など適当なファルダを作成し、その中にこのリポジトリを `git clone` する
-1. `./setup.sh` を実行する
-1. VSCode を一度起動し、何もせず閉じる（設定ファイルを生成させる）
-1. `./vscode-setup.sh` を実行する
-1. **iterm2 で** `p10k configure` を実行し、 [powerlevel10k](https://github.com/romkatv/powerlevel10k) が推奨するフォントのインストールを行う
-1. iterm2 のデフォルトプロファイルに `./theme` 内のカラープリセットを適用させる
-1. `MyricaM` をインストールする
+- homebrew をインストールする
+  - git も同時にインストールされる。
+- `~/Workspace` などの適当なファルダを作成し、その中にこのリポジトリを `git clone` する
+- `./setup.sh` を実行する
+- VSCode を一度起動し、code コマンドで VSCode が起動するよう設定する
+  - 初回起動で設定ファイルを生成させる
+  - 後続のスクリプトで code を使用するのでそれを設定する
+- `./vscode-setup.sh` を実行する
+- **iterm2 で** `p10k configure` を実行し、 [powerlevel10k](https://github.com/romkatv/powerlevel10k) が推奨するフォントのインストールを行う
+  - `ターミナル`で実行するとインストールできないため注意
+- iterm2 のデフォルトプロファイルに `./theme` 内のカラープリセットを適用させる
+- `MyricaM` をインストールする
