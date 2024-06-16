@@ -2,8 +2,8 @@
 
 ## 前提
 
-- zshとgitがインストールされていること（必須）
-- item2がインストールされていること（任意）
+- zsh で実行する
+- git がインストールされている
 
 ## 使用方法
 
@@ -11,4 +11,4 @@
 2. `./setup.sh` を実行する
 3. `p10k configure` を実行し、 [powerlevel10k](https://github.com/romkatv/powerlevel10k) が推奨するフォントのインストールを行う
 4. iterm2 のデフォルトプロファイルに `./theme` 内のカラープリセットを適用させる
-5. `brew install exa`
+5. `MyricaM` をインストールする
